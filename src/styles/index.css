@@ -10,3 +10,78 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    margin-top: 5%;
+    background-color:rgb(250, 223, 182)2, 173;
+  
+}
+
+.box{
+    background: aqua;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 #ffffff,
+    0 2px 0 #bbb,
+    0 3px 0 #ffffff,
+    0 4px 0 #bbb,
+    0 5px 0 #ffffff,
+    0 6px 0 #bbb;
+    margin-bottom: 10px;
+    position:relative;
+    list-style: none;
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    padding: 15px 50px;
+    opacity: 0.90;
+}
+
+ul li{
+    list-style: none;
+    background-color: whitesmoke;
+    border-bottom: 1px solid grey;
+    padding: 15px 50px;
+    opacity: 0.90;
+}
+
+
+
+h1.titulo{
+    text-align: center;
+    font-size: 150px;
+    color: rgb(207, 142, 180);
+}
+
+input{
+    border: none;
+    width: 100%;
+    font-size: 40px;
+    background-color:rgba(252, 252, 252, 0.76) ;
+    outline: none;
+}
+
+.tarea:hover .icono-x {
+    display: block; 
+    color: red;
+}
+
+.icono-x {
+    display: none; 
+    float: right; 
+    margin-left: 10px; 
+}
+
+.fa-pencil{
+    display: none; 
+    float: right; 
+    margin-left: 10px; 
+}
+
+.tarea:hover .fa-pencil {
+    display: block; 
+    color: rgb(0, 132, 255);
+}
+
+
+
+
+
+
